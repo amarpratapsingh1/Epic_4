@@ -1,0 +1,67 @@
+.task-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .task-section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .task {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .task.completed {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+
+  .add-task-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .add-task-container .task-checkbox {
+    margin-right: 5px;
+  }
+  
+  .add-task-container input[type='text'] {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-task-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;   
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-task-container button:hover {
+    background-color: #0056b3;
+  }
+
+  .handle {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 35px 5px;
+    border-radius: 2px;
+    /* border: 1px solid #ccc; */
+  }
+  .ms-2{
+    
+    border: none; 
+  }
+  
+  
+  

@@ -1,0 +1,211 @@
+/* Styling for the login form */
+h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="email"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="button"] {
+    padding: 2px 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Additional styling for the container */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+
+
+
+/* for dashboard */
+/* TaskDashboard container */
+.task-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Task section */
+  .task-section {
+    width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .task-section h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: #eaf3f5;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Accordion */
+  .task-accordion {
+    border: 1px solid #ddd;
+    overflow: hidden;
+  }
+  
+  .task-accordion .accordion-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .task-accordion .accordion-header:hover {
+    background-color: #eaf3f5;
+  }
+  
+  .task-accordion .accordion-header .accordion-icon {
+    margin-right: 10px;
+  }
+  
+  .task-accordion .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  /* Completed tasks */
+  .task-accordion .completed-tasks {
+    display: block;
+  }
+  
+  /* Incomplete tasks */
+  .task-accordion .incomplete-tasks {
+    display: block;
+  }
+  
+  /* Task item */
+  .task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s ease;
+  }
+  
+  .task-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Completed task */
+  .task-item.completed {
+    background-color: #f9f9f9;
+  }
+  
+  /* Incomplete task */
+  .task-item.incomplete {
+    background-color: #fff;
+  }
+  
+  /* Task name */
+  .task-name {
+    flex-grow: 1;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  /* Due date */
+  .due-date {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  /* Priority */
+  .priority {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  /* Checkbox */
+  .task-checkbox {
+    margin-right: 10px;
+  }
+
+  
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+  /* .task-container {
+    margin: 20px;
+  }
+  
+  .add-task-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .add-task-container input {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .add-task-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    margin-bottom: 5px;
+  }
+   */
